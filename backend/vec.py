@@ -8,7 +8,7 @@ from qdrant_client import QdrantClient, models
 
 
 
-os.environ["COHERE_API_KEY"] = "abVuiltuIQiHwZPnr6qe5eURjSpUpeXoQ2NZstDd"
+os.environ["COHERE_API_KEY"] = " "
 api_key = os.getenv("COHERE_API_KEY")
 if not api_key:
     st.error("COHERE_API_KEY is not set in the environment variables.")
